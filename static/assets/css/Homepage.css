@@ -1,0 +1,81 @@
+#hp_welcome {
+  text-align: center;
+  padding: 80px;
+  background: url(../../assets/img/73-sdileni.jpg?h=f9a1bcc0c7e43dd61bbfd411be727eb8);
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  #hp_welcome {
+    padding: 40px;
+  }
+}
+
+#hp_welcome .jumbotron {
+  border-radius: 20px;
+  padding: 60px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  #hp_welcome .jumbotron {
+    padding: 40px;
+  }
+}
+
+#hp_slot {
+  text-align: center;
+  padding: 80px;
+  background: url(../../assets/img/Header-A-TC-Weggis.jpg?h=9a268ab7af862636c742444d70ca094f);
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  #hp_slot {
+    padding: 40px;
+  }
+}
+
+#hp_slot .jumbotron {
+  border-radius: 20px;
+  padding: 60px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  #hp_slot .jumbotron {
+    padding: 40px;
+  }
+}
+
+#hp_account {
+  text-align: center;
+  padding: 80px;
+  background: url(../../assets/img/tennis-court.jpg?h=405cb0f81e3e7f73140abcced02f2d2e);
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  #hp_account {
+    padding: 40px;
+  }
+}
+
+#hp_account .jumbotron {
+  border-radius: 20px;
+  padding: 60px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  #hp_account .jumbotron {
+    padding: 40px;
+  }
+}
+

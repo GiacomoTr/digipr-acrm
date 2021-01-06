@@ -1,0 +1,12 @@
+{
+    "name": "tennis_club",
+    "version": "1.0.0",
+    "description": "Project Description",
+    "scripts": {
+      "start": "serve static"
+    },
+    "dependencies": {
+      "serve": "^11.3.2"
+    },
+    "author": ""
+  }
