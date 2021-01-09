@@ -1,7 +1,7 @@
 #hp_welcome {
   text-align: center;
   padding: 80px;
-  background: url(../../assets/img/73-sdileni.jpg?h=f9a1bcc0c7e43dd61bbfd411be727eb8);
+  background: url(../../assets/img/windisch-hills-hero.png);
   background-size: cover;
 }
 
@@ -28,7 +28,7 @@
 #hp_slot {
   text-align: center;
   padding: 80px;
-  background: url(../../assets/img/Header-A-TC-Weggis.jpg?h=9a268ab7af862636c742444d70ca094f);
+  background: url(../../assets/img/windisch-hills-reservation.png);
   background-size: cover;
 }
 
@@ -55,7 +55,7 @@
 #hp_account {
   text-align: center;
   padding: 80px;
-  background: url(../../assets/img/tennis-court.jpg?h=405cb0f81e3e7f73140abcced02f2d2e);
+  background: url(../../assets/img/windisch-hills-account.png);
   background-size: cover;
 }
 
