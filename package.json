@@ -1,12 +1,12 @@
 {
     "name": "tennis_club",
-    "version": "1.0.0",
-    "description": "Project Description",
+    "version": "2.0.0",
+    "description": "Windisch Hills",
     "scripts": {
       "start": "serve static"
     },
     "dependencies": {
       "serve": "^11.3.2"
     },
-    "author": ""
+    "author": "Tufan Basaran, Lukas Kipfer, Jeannine Messerli, Giacomo Travaglione"
   }
