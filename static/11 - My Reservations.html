@@ -7,7 +7,6 @@
     <title>Tennis Club</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/AboutUs.css">
     <link rel="stylesheet" href="assets/css/Bootstrap-Calendar.css">
     <link rel="stylesheet" href="assets/css/Calendar-JavaScript-Can-only-see-in-browser-preview-mode-1.css">
@@ -38,17 +37,17 @@
 
 <body>
     <nav class="navbar navbar-light navbar-expand-md text-left">
-        <div class="container-fluid"><img id="hp_logo" src="assets/img/istockphoto-1206838436-612x612.jpg" width="60px" height="60px" style="margin-left: -10px;"><a class="navbar-brand" href="1%20-%20Homepage.html" style="/*font-size: 20px;*/"><strong>Tennis Club</strong> Windisch Hills</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="margin-left: -18px;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container-fluid"><img id="hp_logo" src="assets/img/istockphoto-1206838436-612x612.jpg" width="60px" height="60px" style="margin-left: -10px;"><a class="navbar-brand" href="1 - Homepage.html" style="/*font-size: 20px;*/"><strong>Tennis Club</strong> Windisch Hills</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="margin-left: -18px;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse text-right" id="navcol-1">
                 <ul class="nav navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link active text-left" href="5%20-%20Calendar.html" style="font-size: 15px;width: 105px;">Book a Slot</a></li>
+                    <li class="nav-item"><a class="nav-link active text-left" href="5 - Calendar.html" style="font-size: 15px;width: 105px;">Book a Slot</a></li>
                     <li class="nav-item"></li>
                     <li class="nav-item"></li>
                     <li class="nav-item dropdown"><a class="dropdown-toggle nav-link text-left" data-toggle="dropdown" aria-expanded="false" href="#" style="font-size: 15px;width: 80px;">About</a>
-                        <div class="dropdown-menu"><a class="dropdown-item" href="6%20-%20About%20us.html">About us</a><a class="dropdown-item" href="13%20-%20Our%20Trainers.html">Our Team</a><a class="dropdown-item" href="12%20-%20Contact%20us.html">Contact us</a></div>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="6 - About us.html">About us</a><a class="dropdown-item" href="13 - Our Trainers.html">Our Team</a><a class="dropdown-item" href="12 - Contact us.html">Contact us</a></div>
                     </li>
                 </ul>
-                <div class="btn-group" role="group" style="width: 151px;height: 8px;"><a class="btn btn-link" role="button" href="7%20-%20Login.html">Login</a><a class="btn btn-link" role="button" href="8%20-%20Sign%20up.html">Sign Up</a></div>
+                <div class="btn-group" role="group" style="width: 151px;height: 8px;"><a class="btn btn-link" role="button" href="7 - Login.html">Login</a><a class="btn btn-link" role="button" href="8 - Sign up.html">Sign Up</a></div>
             </div>
         </div>
     </nav>
@@ -69,7 +68,7 @@
                     buildTable2(myObj);
                 }
             };
-            xmlhttp.open("GET", "http://5fef42a7ba7b3f0017faeb3e.mockapi.io/main?id=1", true);
+            xmlhttp.open("GET", "https://5fef42a7ba7b3f0017faeb3e.mockapi.io/main?id=1", true);
             xmlhttp.send();
 
             function buildTable2(data2) {
@@ -102,7 +101,7 @@
 		            var xmlhttp = new XMLHttpRequest();
 		            var params = 'date='+'11.03.2021'+'&time='+'11H00'+'&court='+'1';
 
-		            xmlhttp.open('PUT', 'http://5fef42a7ba7b3f0017faeb3e.mockapi.io/cancelled/1', true);
+		            xmlhttp.open('PUT', 'https://5fef42a7ba7b3f0017faeb3e.mockapi.io/cancelled/1', true);
 		            xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
 
 	
@@ -168,7 +167,7 @@ window.open("4 - Cancellation Confirmation.html")
                     buildTable3(myObj);
                 }
             };
-            xmlhttp.open("GET", "http://5fef42a7ba7b3f0017faeb3e.mockapi.io/cancelled?id=1", true);
+            xmlhttp.open("GET", "https://5fef42a7ba7b3f0017faeb3e.mockapi.io/cancelled?id=1", true);
             xmlhttp.send();
 
             function buildTable3(data2) {
