@@ -1,6 +1,4 @@
-# Tennis Club
-
-# Internet Technology Project - Group 3
+# Tennis Club - Internet Technology Project - Group 3
 
 University of Applied Sciences of Northwestern Switzerland - School of Business
 BITPT19A
