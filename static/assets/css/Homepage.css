@@ -1,0 +1,81 @@
+#hp_welcome {
+  text-align: center;
+  padding: 80px;
+  background: url(../../assets/img/windisch-hills-hero.png);
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  #hp_welcome {
+    padding: 40px;
+  }
+}
+
+#hp_welcome .jumbotron {
+  border-radius: 20px;
+  padding: 60px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  #hp_welcome .jumbotron {
+    padding: 40px;
+  }
+}
+
+#hp_slot {
+  text-align: center;
+  padding: 80px;
+  background: url(../../assets/img/windisch-hills-reservation.png);
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  #hp_slot {
+    padding: 40px;
+  }
+}
+
+#hp_slot .jumbotron {
+  border-radius: 20px;
+  padding: 60px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  #hp_slot .jumbotron {
+    padding: 40px;
+  }
+}
+
+#hp_account {
+  text-align: center;
+  padding: 80px;
+  background: url(../../assets/img/windisch-hills-account.png);
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  #hp_account {
+    padding: 40px;
+  }
+}
+
+#hp_account .jumbotron {
+  border-radius: 20px;
+  padding: 60px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  #hp_account .jumbotron {
+    padding: 40px;
+  }
+}
+
