@@ -1,5 +1,0 @@
-{
-  "name": "Tennis Club",
-  "stack": "heroku-20",
-  "image": "heroku/nodejs"
-}
